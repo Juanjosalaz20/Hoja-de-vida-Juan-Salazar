@@ -9,3 +9,23 @@ html,body{
     max-width: 1200px;
     margin: 0 auto;
 }
+@media (max-width: 768px) {
+    #hoja {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    table, tr, td {
+        display: block;
+        width: 100%;
+    }
+}
